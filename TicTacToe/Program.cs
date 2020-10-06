@@ -5,12 +5,13 @@ namespace TicTacToe
 {
     public class Program
     {
-
+        #region Pola
         static string Player1Name = null;
         static string Player2Name = null;
         static bool Winner = false;
         static string CurrentPlayer = null;
         static int TableDimension = 0;
+        #endregion
 
         /// <summary>
         /// Pole gry
