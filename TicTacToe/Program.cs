@@ -29,7 +29,7 @@ namespace TicTacToe
 
             GameModeChose();
 
-            GameFieldChose();
+            SettingField();
 
             Game();
 
@@ -274,7 +274,7 @@ namespace TicTacToe
                 {
                     ResetGame();
                     GameModeChose();
-                    GameFieldChose();
+                    SettingField();
                     Game();
 
                 }
@@ -284,7 +284,7 @@ namespace TicTacToe
                     ResetGame();
                     SetNames();
                     GameModeChose();
-                    GameFieldChose();
+                    SettingField();
                     Game();
 
                 }
@@ -307,7 +307,7 @@ namespace TicTacToe
         }
 
 
-        static void GameFieldChose()
+        static void SettingField()
         {
             
             GameField = new string[TableDimension * TableDimension];
